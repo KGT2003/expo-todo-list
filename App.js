@@ -63,8 +63,15 @@ export default function App() {
           onChangeText={setNewTask}
           onSubmitEditing={addTask}
         />
+        <Input
+          placeholder="Delete all tasks"
+          value={deleteAll}
+          onChangeText={setDeleteAll}
+          onSubmitEditing={deleteAllTasks}
+        />
 
         <Button title="Add" onPress={addTask} />
+        <Button title="Delete All Tasks" onPress={deleteAllTasks} containerStyle={styles.buttonContainer} />
 
         <FlatList
           data={tasks}
@@ -89,5 +96,8 @@ const styles = StyleSheet.create({
   },
   normalText: {
     textDecorationLine: 'green',
+  },
+  buttonContaienr: {
+    marginBottom: 10,
   },
 });
