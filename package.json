@@ -2,6 +2,7 @@
   "name": "expo-todo-list",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://KGT2003.github.io/expo-todo-list",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -20,5 +21,5 @@
     "react-native-web": "^0.21.0",
     "react-test-renderer": "^19.2.4"
   },
-  "private": true
+  "private": false
 }
