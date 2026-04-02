@@ -102,7 +102,4 @@ const styles = StyleSheet.create({
   normalText: {
     color: 'green',
   },
-  buttonContainer: {
-    marginBottom: 10,
-  },
 });
