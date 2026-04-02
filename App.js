@@ -11,6 +11,7 @@ export default function App() {
   ]);
 
   const [newTask, setNewTask] = useState('');
+  const [deleteAll, setDeleteAll] = useState('');
 
   const toggleTask = (key) => {
     setTasks(prevTasks =>
@@ -33,6 +34,10 @@ export default function App() {
 
     setTasks([...tasks, newItem]);
     setNewTask('');
+  };
+  const deleteAllTasks = () => {
+    setTasks([]);
+    setDeleteAll('');
   };
 
   const renderItem = ({ item }) => (
@@ -95,9 +100,9 @@ const styles = StyleSheet.create({
     color: 'gray',
   },
   normalText: {
-    textDecorationLine: 'green',
+    color: 'green',
   },
-  buttonContaienr: {
+  buttonContainer: {
     marginBottom: 10,
   },
 });
