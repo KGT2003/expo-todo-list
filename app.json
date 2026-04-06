@@ -13,7 +13,7 @@
       "backgroundColor": "#ffffff"
     },
     "experiments": {
-      "baseUrl": "https://KGT2003.github.io/expo-todo-list"
+      "baseUrl": "/expo-todo-list"
     },
 
     "ios": {
