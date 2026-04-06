@@ -12,6 +12,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "experiments": {
+      "baseUrl": "https://KGT2003.github.io/expo-todo-list"
+    },
+
     "ios": {
       "supportsTablet": true
     },
@@ -25,9 +29,6 @@
     "web": {
        "bundler": "metro",
       "favicon": "./assets/favicon.png"
-    },
-  "experiments": {
-      "baseUrl": "https://KGT2003.github.io/expo-todo-list"
     }
   }
 }
